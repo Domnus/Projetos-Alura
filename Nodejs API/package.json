@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.4",
+    "moment": "^2.29.1"
+  },
+  "name": "projeto_alura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Domnus/Projetos-Alura.git"
+  },
+  "author": "Bento Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Domnus/Projetos-Alura/issues"
+  },
+  "homepage": "https://github.com/Domnus/Projetos-Alura#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
