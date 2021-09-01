@@ -1,10 +1,11 @@
-const mariadb = require('mariadb')
+const mysql = require('mysql')
 
-const conexao = mariadb.createPool({
-	host: 'localhost',
-	user: 'root',
-	password: 'admin',
-	database: 'agenda_petshop'
+const conexao = mysql.createConnection({
+    host: 'localhost',
+    port: 3306,
+    user: 'root',
+    password: 'laciobento2',
+    database: 'agenda_petshop'
 })
 
 module.exports = conexao

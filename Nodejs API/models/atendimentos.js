@@ -1,116 +1,109 @@
-const conexao = require('../infraestrutura/conexao')
-const axios = require('axios')
 const moment = require('moment')
+const axios = require('axios')
+const conexao = require('../infraestrutura/conexao')
 
 class Atendimento {
-	adiciona(atendimento, res) {
-		const dataCriacao = moment().format('YYYY-MM-DD HH:mm:ss')
-		const data = moment(atendimento.data, 'DD/MM/YYYY').format('YYYY-MM-DD HH:mm:ss')
+    adiciona(atendimento, res) {
+        const dataCriacao = moment().format('YYYY-MM-DD HH:MM:SS')
+        const data = moment(atendimento.data, 'DD/MM/YYYY').format(
+            'YYYY-MM-DD HH:MM:SS'
+        )
 
-		const dataValida = moment(data).isSameOrAfter(dataCriacao)
-		const clienteValido = atendimento.cliente.length >= 5
+        const dataEhValida = moment(data).isSameOrAfter(dataCriacao)
+        const clienteEhValido = atendimento.cliente.length >= 5
 
-		const validacoes = [
-			{
-				nome: 'data',
-				valido: dataValida,
-				mensagem: 'Data deve ser maior ou igual à atual'
-			},
-			{
-				nome: 'cliente',
-				valido: clienteValido,
-				mensagem: 'Cliente deve ter pelo menos 5 caracteres'
-			}
-		]
+        const validacoes = [
+            {
+                nome: 'data',
+                valido: dataEhValida,
+                mensagem: 'Data deve ser maior ou igual a data atual'
+            },
+            {
+                nome: 'cliente',
+                valido: clienteEhValido,
+                mensagem: 'Cliente deve ter pelo menos cinco caracteres'
+            }
+        ]
 
-		const erros = validacoes.filter(campo => !campo.valido)
-		const existemErros = erros.length
+        const erros = validacoes.filter(campo => !campo.valido)
+        const existemErros = erros.length
 
-		if (existemErros) {
-			res.status(400).json(erros)
-		} else {
+        if (existemErros) {
+            res.status(400).json(erros)
+        } else {
+            const atendimentoDatado = { ...atendimento, dataCriacao, data }
 
-			const atendimentoDatado = {...atendimento, data, dataCriacao}
-			conexao.query("INSERT INTO Atendimentos (cliente, pet, servico, status, observacoes, data, dataCriacao) values (?,?,?,?,?,?,?)",[atendimentoDatado.cliente, atendimentoDatado.pet, atendimentoDatado.servico, atendimentoDatado.status, atendimentoDatado.observacoes, atendimentoDatado.data, atendimentoDatado.dataCriacao])
-				.then(
-					(resultados) =>{
-						res.status(201).json(atendimento)
-				})
-				.catch(err => {
-					res.status(400).json(err)
-				})
-		}
-	}
+            const sql = 'INSERT INTO Atendimentos SET ?'
 
-	lista(res) {
-		conexao.query('SELECT * FROM Atendimentos')
-			.then(
-				(resultados) => {
-					res.status(200).json(resultados)
-				}
-			).catch(err => {
-				res.status(400).json(err)
-			})
-	}
+            conexao.query(sql, atendimentoDatado, (erro, resultados) => {
+                if (erro) {
+                    res.status(400).json(erro)
+                } else {
+                    const id = resultados.insertId
+                    res.status(201).json({ ...atendimento, id })
+                }
+            })
+        }
+    }
 
-	buscaPorId(id, res) {
-		/*
-		conexao.query('SELECT * FROM Atendimentos WHERE id = (?)', [id])
-			.then(
-				(resultados) => {
-					const atendimento = resultados[0]
-					res.status(200).json(atendimento)
-				}
-			).catch(err => {
-				res.status(400).json(err)
-			})
-		*/
+    lista(res) {
+        const sql = 'SELECT * FROM Atendimentos'
 
-		const sql = `SELECT * FROM Atendimentos WHERE id=${id}`
+        conexao.query(sql, (erro, resultados) => {
+            if (erro) {
+                res.status(400).json(erro)
+            } else {
+                res.status(200).json(resultados)
+            }
+        })
+    }
 
-		conexao.query(sql, async (erro, resultados) => {
-			const atendimento = resultados[0]
-			const cpf = atendimento.cliente
+    buscaPorId(id, res) {
+        const sql = `SELECT * FROM Atendimentos WHERE id=${id}`
 
-			if (erro) {
-				res.status(400).json(erro)
-			} else {
-				const { data } = await axios.get(`hhtp://localhost:8082/${cpf}`)
-				atendimento.cliente = data
-				res.status(200).json(resultados)
-			}
-		})
-	}
+        conexao.query(sql, async (erro, resultados) => {
+            const atendimento = resultados[0]
+            const cpf = atendimento.cliente
+            if (erro) {
+                res.status(400).json(erro)
+            } else {
+                const { data } = await axios.get(`http://localhost:8082/${cpf}`)
 
-	altera(id, valores, res) {
-		if (valores.data) {
-			valores.data = moment(valores.data, 'DD/MM/YYYY').format('YYYY-MM-DD HH:mm:ss')
-		}
+                atendimento.cliente = data
 
-		var keys = Object.keys(valores)
-		conexao.query('UPDATE Atendimentos SET cliente = ?, pet = ?, servico = ?, status = ?, observacoes = ?, data = ? WHERE id = ?', [valores.cliente,valores.pet,valores.servico,valores.status,valores.observacoes,valores.data, id])
-			.then(
-				(resultados) => {
-					res.status(200).json({...valores, id})
-				}
-			).catch(err => {
-				res.status(400).json(err)
-				console.log(err)
-			})
-	}
+                res.status(200).json(atendimento)
+            }
+        })
+    }
 
-	deleta(id, res) {
-		const sql = 'DELETE FROM Atendimentos WHERE id = ?'
+    altera(id, valores, res) {
+        if (valores.data) {
+            valores.data = moment(valores.data, 'DD/MM/YYYY').format(
+                'YYYY-MM-DD HH:MM:SS'
+            )
+        }
+        const sql = 'UPDATE Atendimentos SET ? WHERE id=?'
 
-		conexao.query(sql, id)
-			.then(
-				(resultados) => {
-					res.status(200).json({id})
-				}
-			).catch(err => {
-				res.status(400).json(err)
-			})
-	}
+        conexao.query(sql, [valores, id], (erro, resultados) => {
+            if (erro) {
+                res.status(400).json(erro)
+            } else {
+                res.status(200).json({ ...valores, id })
+            }
+        })
+    }
+
+    deleta(id, res) {
+        const sql = 'DELETE FROM Atendimentos WHERE id=?'
+
+        conexao.query(sql, id, (erro, resultados) => {
+            if (erro) {
+                res.status(400).json(erro)
+            } else {
+                res.status(200).json({ id })
+            }
+        })
+    }
 }
 
-module.exports = new Atendimento
+module.exports = new Atendimento()
