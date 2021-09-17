@@ -7,5 +7,14 @@ module.exports = {
 
     inserir(Fornecedor) {
         return Modelo.create(Fornecedor)
+    },
+
+    atualizar(id, dadosParaAtualizar) {
+        return Modelo.update(
+            dadosParaAtualizar,
+            {
+                where: {id: id}
+            }
+        )
     }
 }
