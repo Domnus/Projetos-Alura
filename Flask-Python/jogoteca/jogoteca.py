@@ -55,7 +55,7 @@ def login():
 @app.route('/autenticar', methods=['POST',])
 def autenticar():
     if request.form['usuario'] in usuarios:
-        usuario = request.form['usuario']
+        usuario = usuarios[request.form['usuario']]
         if usuario.senha == request.form['senha']:
             session['usuario_logado'] = usuario.id
             flash(usuario.nome + ' logou com sucesso!')
