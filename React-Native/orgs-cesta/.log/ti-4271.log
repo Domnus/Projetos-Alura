@@ -1,0 +1,283 @@
+[19:01:41.316] Global cache location '/home/bentocarlos/.cache/typescript/4.5', safe file path '/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[19:01:41.317] Processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[19:01:41.317] Trying to find '/home/bentocarlos/.cache/typescript/4.5/package.json'...
+[19:01:41.321] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.569"},"devDependencies":{"@types/accepts":"^1.3.5","@types/argparse":"^2.0.10","@types/arr-diff":"^4.0.0","@types/arr-union":"^3.1.0","@types/array-find-index":"^1.0.0","@types/array-unique":"^0.3.0","@types/asap":"^2.0.0","@types/async":"^3.2.10","@types/atob":"^2.1.2","@types/babel__core":"^7.1.16","@types/babel-core":"^6.25.7","@types/balanced-match":"^1.0.1","@types/blueimp-md5":"^2.18.0","@types/brace-expansion":"^1.1.0","@types/braces":"^3.0.1","@types/bser":"^2.0.1","@types/buffer-from":"^1.1.0","@types/bytes":"^3.1.1","@types/call-bind":"^1.0.0","@types/caniuse-lite":"^1.0.1","@types/cli-spinners":"^1.3.0","@types/clone":"^2.1.1","@types/clone-deep":"^4.0.1","@types/color-convert":"^2.0.0","@types/color-name":"^1.1.1","@types/command-exists":"^1.2.0","@types/commondir":"^1.0.0","@types/component-emitter":"^1.2.11","@types/compressible":"^2.0.0","@types/compression":"^1.7.2","@types/concat-map":"^0.0.1","@types/connect":"^3.4.35","@types/convert-source-map":"^1.5.2","@types/core-js":"^2.5.5","@types/create-react-class":"^15.6.3","@types/cross-spawn":"^6.0.2","@types/debug":"^4.1.7","@types/decode-uri-component":"^0.2.0","@types/defaults":"^1.0.3","@types/define-properties":"^1.1.3","@types/denodeify":"^1.2.31","@types/depd":"^1.1.32","@types/destroy":"^1.0.0","@types/ee-first":"^1.1.0","@types/encodeurl":"^1.0.0","@types/end-of-stream":"^1.4.1","@types/envinfo":"^7.8.1","@types/errorhandler":"^1.5.0","@types/escape-html":"^1.0.1","@types/esprima":"^4.0.3","@types/esutils":"^2.0.0","@types/etag":"^1.8.1","@types/fb-watchman":"^2.0.1","@types/fbemitter":"^2.0.32","@types/fbjs":"^3.0.2","@types/fill-range":"^7.0.0","@types/finalhandler":"^1.1.1","@types/find-cache-dir":"^3.2.1","@types/fontfaceobserver":"^2.1.0","@types/fresh":"^0.5.0","@types/fs-extra":"^9.0.13","@types/function-bind":"^1.1.6","@types/get-intrinsic":"^1.0.0","@types/get-value":"^3.0.2","@types/getenv":"^1.0.0","@types/glob":"^7.2.0","@types/glob-parent":"^5.1.1","@types/graceful-fs":"^4.1.5","@types/has":"^1.0.0","@types/has-symbols":"^1.0.0","@types/http-errors":"^1.8.1","@types/hyphenate-style-name":"^1.0.0","@types/imurmurhash":"^0.1.1","@types/inherits":"^0.0.30","@types/inline-style-prefixer":"^5.0.0","@types/interpret":"^1.1.1","@types/invariant":"^2.2.35","@types/ip":"^1.1.0","@types/is-buffer":"^2.0.0","@types/is-ci":"^3.0.0","@types/is-core-module":"^2.2.0","@types/is-data-descriptor":"^1.0.0","@types/is-glob":"^4.0.2","@types/is-number":"^7.0.1","@types/is-windows":"^1.0.0","@types/isarray":"^2.0.0","@types/isexe":"^2.0.1","@types/isomorphic-fetch":"^0.0.35","@types/js-yaml":"^4.0.5","@types/jscodeshift":"^0.11.3","@types/jsesc":"^3.0.1","@types/json-parse-better-errors":"^1.0.0","@types/jsonfile":"^6.0.1","@types/kind-of":"^6.0.0","@types/klaw":"^3.0.3","@types/lodash":"^4.14.177","@types/lodash.debounce":"^4.0.6","@types/lodash.frompairs":"^4.0.6","@types/lodash.isequal":"^4.5.5","@types/lodash.isstring":"^4.0.6","@types/lodash.omit":"^4.5.6","@types/lodash.pick":"^4.4.6","@types/lodash.template":"^4.5.0","@types/lodash.throttle":"^4.1.6","@types/lru-cache":"^5.1.1","@types/merge-stream":"^1.1.2","@types/merge2":"^1.3.1","@types/metro":"^0.66.0","@types/metro-babel-transformer":"^0.66.0","@types/metro-cache":"^0.66.0","@types/metro-config":"^0.66.0","@types/metro-core":"^0.66.0","@types/metro-resolver":"^0.66.0","@types/metro-source-map":"^0.66.0","@types/metro-transform-worker":"^0.66.0","@types/micromatch":"^4.0.2","@types/mime":"^2.0.3","@types/mime-db":"^1.43.1","@types/mime-types":"^2.1.1","@types/minimatch":"^3.0.5","@types/minimist":"^1.2.2","@types/mkdirp":"^1.0.2","@types/ms":"^0.7.31","@types/mz":"^2.7.4","@types/negotiator":"^0.6.1","@types/nice-try":"^2.1.0","@types/node-dir":"^0.0.34","@types/node-int64":"^0.4.29","@types/normalize-path":"^3.0.0","@types/object-assign":"^4.0.30","@types/object-keys":"^1.0.1","@types/object.pick":"^1.3.1","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/once":"^1.4.0","@types/os-tmpdir":"^1.0.0","@types/parse-json":"^4.0.0","@types/parseurl":"^1.3.1","@types/pascalcase":"^1.0.1","@types/path-browserify":"^1.0.0","@types/path-is-absolute":"^1.0.0","@types/path-parse":"^1.0.19","@types/picomatch":"^2.3.0","@types/pify":"^5.0.1","@types/plist":"^3.0.2","@types/prompts":"^2.0.14","@types/prop-types":"^15.7.4","@types/pump":"^1.1.1","@types/querystringify":"^2.0.0","@types/range-parser":"^1.2.4","@types/react":"^17.0.37","@types/react-dom":"^17.0.11","@types/react-is":"^17.0.3","@types/react-native":"^0.66.6","@types/readable-stream":"^2.3.12","@types/rechoir":"^0.6.1","@types/regenerate":"^1.4.1","@types/regenerator-runtime":"^0.13.1","@types/regex-not":"^1.0.0","@types/repeat-element":"^1.1.0","@types/repeat-string":"^1.6.2","@types/require-directory":"^2.1.2","@types/require-from-string":"^1.2.1","@types/requires-port":"^1.0.0","@types/resolve":"^1.20.1","@types/rimraf":"^3.0.2","@types/rsvp":"^4.0.4","@types/run-parallel":"^1.1.0","@types/safe-regex":"^1.1.3","@types/safer-buffer":"^2.1.0","@types/sane":"^2.0.1","@types/sax":"^1.2.3","@types/scheduler":"^0.16.2","@types/semver":"^7.3.9","@types/send":"^0.17.1","@types/serve-static":"^1.13.10","@types/set-value":"^4.0.1","@types/setimmediate":"^1.0.2","@types/shebang-command":"^1.2.0","@types/shell-quote":"^1.7.1","@types/shelljs":"^0.8.9","@types/signal-exit":"^3.0.1","@types/slice-ansi":"^5.0.0","@types/source-map-support":"^0.5.4","@types/sprintf":"^0.1.0","@types/sprintf-js":"^1.1.2","@types/statuses":"^2.0.0","@types/stream-buffers":"^3.0.4","@types/supports-color":"^8.1.1","@types/temp":"^0.9.1","@types/through2":"^2.0.36","@types/tmpl":"^1.0.0","@types/to-regex":"^3.0.0","@types/to-regex-range":"^5.0.0","@types/ua-parser-js":"^0.7.36","@types/uglify-es":"^3.0.0","@types/ultron":"^1.1.0","@types/universalify":"^1.0.0","@types/urix":"^0.1.0","@types/url-parse":"^1.4.5","@types/use-subscription":"^1.0.0","@types/util-deprecate":"^1.0.0","@types/utils-merge":"^0.0.28","@types/uuid":"^8.3.3","@types/vary":"^1.1.0","@types/wcwidth":"^1.0.0","@types/webidl-conversions":"^6.1.1","@types/whatwg-url":"^8.2.1","@types/which":"^2.0.1","@types/wrap-ansi":"^8.0.1","@types/write-file-atomic":"^3.0.2","@types/ws":"^8.2.1","@types/xml2js":"^0.4.9","@types/xmldoc":"^1.1.6","@types/xtend":"^4.0.4","@types/yallist":"^4.0.1","@types/yargs":"^17.0.7","@types/yargs-parser":"^20.2.1"}}
+[19:01:41.321] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package-lock.json'
+[19:01:41.335] Adding entry into typings cache: 'accepts' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/accepts/index.d.ts'
+[19:01:41.340] Adding entry into typings cache: 'argparse' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/argparse/index.d.ts'
+[19:01:41.341] Adding entry into typings cache: 'arr-diff' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/arr-diff/index.d.ts'
+[19:01:41.343] Adding entry into typings cache: 'arr-union' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/arr-union/index.d.ts'
+[19:01:41.344] Adding entry into typings cache: 'array-find-index' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/array-find-index/index.d.ts'
+[19:01:41.346] Adding entry into typings cache: 'array-unique' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/array-unique/index.d.ts'
+[19:01:41.347] Adding entry into typings cache: 'asap' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/asap/index.d.ts'
+[19:01:41.350] Adding entry into typings cache: 'async' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/async/index.d.ts'
+[19:01:41.352] Adding entry into typings cache: 'atob' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/atob/index.d.ts'
+[19:01:41.354] Adding entry into typings cache: 'babel__core' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/babel__core/index.d.ts'
+[19:01:41.358] Adding entry into typings cache: 'babel-core' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/babel-core/index.d.ts'
+[19:01:41.360] Adding entry into typings cache: 'balanced-match' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/balanced-match/index.d.ts'
+[19:01:41.361] Adding entry into typings cache: 'blueimp-md5' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/blueimp-md5/index.d.ts'
+[19:01:41.363] Adding entry into typings cache: 'brace-expansion' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/brace-expansion/index.d.ts'
+[19:01:41.364] Adding entry into typings cache: 'braces' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/braces/index.d.ts'
+[19:01:41.366] Adding entry into typings cache: 'bser' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/bser/index.d.ts'
+[19:01:41.368] Adding entry into typings cache: 'buffer-from' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/buffer-from/index.d.ts'
+[19:01:41.369] Adding entry into typings cache: 'bytes' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/bytes/index.d.ts'
+[19:01:41.371] Adding entry into typings cache: 'call-bind' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/call-bind/index.d.ts'
+[19:01:41.372] Adding entry into typings cache: 'caniuse-lite' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/caniuse-lite/index.d.ts'
+[19:01:41.374] Adding entry into typings cache: 'cli-spinners' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/cli-spinners/index.d.ts'
+[19:01:41.376] Adding entry into typings cache: 'clone' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/clone/index.d.ts'
+[19:01:41.378] Adding entry into typings cache: 'clone-deep' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/clone-deep/index.d.ts'
+[19:01:41.379] Adding entry into typings cache: 'color-convert' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/color-convert/index.d.ts'
+[19:01:41.380] Adding entry into typings cache: 'color-name' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/color-name/index.d.ts'
+[19:01:41.381] Adding entry into typings cache: 'command-exists' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/command-exists/index.d.ts'
+[19:01:41.382] Adding entry into typings cache: 'commondir' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/commondir/index.d.ts'
+[19:01:41.383] Adding entry into typings cache: 'component-emitter' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/component-emitter/index.d.ts'
+[19:01:41.384] Adding entry into typings cache: 'compressible' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/compressible/index.d.ts'
+[19:01:41.385] Adding entry into typings cache: 'compression' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/compression/index.d.ts'
+[19:01:41.386] Adding entry into typings cache: 'concat-map' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/concat-map/index.d.ts'
+[19:01:41.387] Adding entry into typings cache: 'connect' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/connect/index.d.ts'
+[19:01:41.388] Adding entry into typings cache: 'convert-source-map' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/convert-source-map/index.d.ts'
+[19:01:41.390] Adding entry into typings cache: 'core-js' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/core-js/index.d.ts'
+[19:01:41.391] Adding entry into typings cache: 'create-react-class' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/create-react-class/index.d.ts'
+[19:01:41.392] Adding entry into typings cache: 'cross-spawn' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/cross-spawn/index.d.ts'
+[19:01:41.393] Adding entry into typings cache: 'debug' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/debug/index.d.ts'
+[19:01:41.394] Adding entry into typings cache: 'decode-uri-component' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/decode-uri-component/index.d.ts'
+[19:01:41.395] Adding entry into typings cache: 'defaults' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/defaults/index.d.ts'
+[19:01:41.397] Adding entry into typings cache: 'define-properties' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/define-properties/index.d.ts'
+[19:01:41.398] Adding entry into typings cache: 'denodeify' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/denodeify/index.d.ts'
+[19:01:41.399] Adding entry into typings cache: 'depd' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/depd/index.d.ts'
+[19:01:41.400] Adding entry into typings cache: 'destroy' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/destroy/index.d.ts'
+[19:01:41.401] Adding entry into typings cache: 'ee-first' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ee-first/index.d.ts'
+[19:01:41.402] Adding entry into typings cache: 'encodeurl' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/encodeurl/index.d.ts'
+[19:01:41.404] Adding entry into typings cache: 'end-of-stream' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/end-of-stream/index.d.ts'
+[19:01:41.405] Adding entry into typings cache: 'envinfo' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/envinfo/index.d.ts'
+[19:01:41.407] Adding entry into typings cache: 'errorhandler' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/errorhandler/index.d.ts'
+[19:01:41.408] Adding entry into typings cache: 'escape-html' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/escape-html/index.d.ts'
+[19:01:41.412] Adding entry into typings cache: 'esprima' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/esprima/index.d.ts'
+[19:01:41.413] Adding entry into typings cache: 'esutils' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/esutils/index.d.ts'
+[19:01:41.415] Adding entry into typings cache: 'etag' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/etag/index.d.ts'
+[19:01:41.416] Adding entry into typings cache: 'fb-watchman' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fb-watchman/index.d.ts'
+[19:01:41.418] Adding entry into typings cache: 'fbemitter' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fbemitter/index.d.ts'
+[19:01:41.420] Adding entry into typings cache: 'fbjs' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fbjs/index.d.ts'
+[19:01:41.421] Adding entry into typings cache: 'fill-range' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fill-range/index.d.ts'
+[19:01:41.423] Adding entry into typings cache: 'finalhandler' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/finalhandler/index.d.ts'
+[19:01:41.424] Adding entry into typings cache: 'find-cache-dir' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/find-cache-dir/index.d.ts'
+[19:01:41.425] Adding entry into typings cache: 'fontfaceobserver' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fontfaceobserver/index.d.ts'
+[19:01:41.427] Adding entry into typings cache: 'fresh' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fresh/index.d.ts'
+[19:01:41.428] Adding entry into typings cache: 'fs-extra' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/fs-extra/index.d.ts'
+[19:01:41.429] Adding entry into typings cache: 'function-bind' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/function-bind/index.d.ts'
+[19:01:41.431] Adding entry into typings cache: 'get-intrinsic' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/get-intrinsic/index.d.ts'
+[19:01:41.432] Adding entry into typings cache: 'get-value' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/get-value/index.d.ts'
+[19:01:41.433] Adding entry into typings cache: 'getenv' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/getenv/index.d.ts'
+[19:01:41.435] Adding entry into typings cache: 'glob' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/glob/index.d.ts'
+[19:01:41.435] Adding entry into typings cache: 'glob-parent' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/glob-parent/index.d.ts'
+[19:01:41.437] Adding entry into typings cache: 'graceful-fs' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/graceful-fs/index.d.ts'
+[19:01:41.438] Adding entry into typings cache: 'has' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/has/index.d.ts'
+[19:01:41.439] Adding entry into typings cache: 'has-symbols' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/has-symbols/index.d.ts'
+[19:01:41.440] Adding entry into typings cache: 'http-errors' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/http-errors/index.d.ts'
+[19:01:41.440] Adding entry into typings cache: 'hyphenate-style-name' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/hyphenate-style-name/index.d.ts'
+[19:01:41.441] Adding entry into typings cache: 'imurmurhash' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/imurmurhash/index.d.ts'
+[19:01:41.444] Adding entry into typings cache: 'inherits' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/inherits/index.d.ts'
+[19:01:41.446] Adding entry into typings cache: 'inline-style-prefixer' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/inline-style-prefixer/index.d.ts'
+[19:01:41.448] Adding entry into typings cache: 'interpret' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/interpret/index.d.ts'
+[19:01:41.449] Adding entry into typings cache: 'invariant' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/invariant/index.d.ts'
+[19:01:41.451] Adding entry into typings cache: 'ip' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ip/index.d.ts'
+[19:01:41.452] Adding entry into typings cache: 'is-buffer' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-buffer/index.d.ts'
+[19:01:41.453] Adding entry into typings cache: 'is-ci' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-ci/index.d.ts'
+[19:01:41.455] Adding entry into typings cache: 'is-core-module' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-core-module/index.d.ts'
+[19:01:41.456] Adding entry into typings cache: 'is-data-descriptor' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-data-descriptor/index.d.ts'
+[19:01:41.457] Adding entry into typings cache: 'is-glob' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-glob/index.d.ts'
+[19:01:41.459] Adding entry into typings cache: 'is-number' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-number/index.d.ts'
+[19:01:41.460] Adding entry into typings cache: 'is-windows' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/is-windows/index.d.ts'
+[19:01:41.461] Adding entry into typings cache: 'isarray' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/isarray/index.d.ts'
+[19:01:41.462] Adding entry into typings cache: 'isexe' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/isexe/index.d.ts'
+[19:01:41.463] Adding entry into typings cache: 'isomorphic-fetch' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/isomorphic-fetch/index.d.ts'
+[19:01:41.465] Adding entry into typings cache: 'js-yaml' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/js-yaml/index.d.ts'
+[19:01:41.466] Adding entry into typings cache: 'jscodeshift' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/jscodeshift/index.d.ts'
+[19:01:41.467] Adding entry into typings cache: 'jsesc' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/jsesc/index.d.ts'
+[19:01:41.468] Adding entry into typings cache: 'json-parse-better-errors' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/json-parse-better-errors/index.d.ts'
+[19:01:41.469] Adding entry into typings cache: 'jsonfile' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/jsonfile/index.d.ts'
+[19:01:41.470] Adding entry into typings cache: 'kind-of' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/kind-of/index.d.ts'
+[19:01:41.471] Adding entry into typings cache: 'klaw' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/klaw/index.d.ts'
+[19:01:41.475] Adding entry into typings cache: 'lodash' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash/index.d.ts'
+[19:01:41.476] Adding entry into typings cache: 'lodash.debounce' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.debounce/index.d.ts'
+[19:01:41.478] Adding entry into typings cache: 'lodash.frompairs' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.frompairs/index.d.ts'
+[19:01:41.479] Adding entry into typings cache: 'lodash.isequal' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.isequal/index.d.ts'
+[19:01:41.481] Adding entry into typings cache: 'lodash.isstring' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.isstring/index.d.ts'
+[19:01:41.482] Adding entry into typings cache: 'lodash.omit' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.omit/index.d.ts'
+[19:01:41.483] Adding entry into typings cache: 'lodash.pick' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.pick/index.d.ts'
+[19:01:41.483] Adding entry into typings cache: 'lodash.template' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.template/index.d.ts'
+[19:01:41.484] Adding entry into typings cache: 'lodash.throttle' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lodash.throttle/index.d.ts'
+[19:01:41.485] Adding entry into typings cache: 'lru-cache' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/lru-cache/index.d.ts'
+[19:01:41.486] Adding entry into typings cache: 'merge-stream' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/merge-stream/index.d.ts'
+[19:01:41.487] Adding entry into typings cache: 'merge2' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/merge2/index.d.ts'
+[19:01:41.488] Adding entry into typings cache: 'metro' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro/index.d.ts'
+[19:01:41.489] Adding entry into typings cache: 'metro-babel-transformer' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-babel-transformer/index.d.ts'
+[19:01:41.490] Adding entry into typings cache: 'metro-cache' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-cache/index.d.ts'
+[19:01:41.491] Adding entry into typings cache: 'metro-config' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-config/index.d.ts'
+[19:01:41.492] Adding entry into typings cache: 'metro-core' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-core/index.d.ts'
+[19:01:41.492] Adding entry into typings cache: 'metro-resolver' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-resolver/index.d.ts'
+[19:01:41.493] Adding entry into typings cache: 'metro-source-map' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-source-map/index.d.ts'
+[19:01:41.494] Adding entry into typings cache: 'metro-transform-worker' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/metro-transform-worker/index.d.ts'
+[19:01:41.495] Adding entry into typings cache: 'micromatch' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/micromatch/index.d.ts'
+[19:01:41.496] Adding entry into typings cache: 'mime' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/mime/index.d.ts'
+[19:01:41.497] Adding entry into typings cache: 'mime-db' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/mime-db/index.d.ts'
+[19:01:41.498] Adding entry into typings cache: 'mime-types' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/mime-types/index.d.ts'
+[19:01:41.499] Adding entry into typings cache: 'minimatch' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/minimatch/index.d.ts'
+[19:01:41.500] Adding entry into typings cache: 'minimist' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/minimist/index.d.ts'
+[19:01:41.501] Adding entry into typings cache: 'mkdirp' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/mkdirp/index.d.ts'
+[19:01:41.502] Adding entry into typings cache: 'ms' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ms/index.d.ts'
+[19:01:41.503] Adding entry into typings cache: 'mz' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/mz/index.d.ts'
+[19:01:41.503] Adding entry into typings cache: 'negotiator' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/negotiator/index.d.ts'
+[19:01:41.504] Adding entry into typings cache: 'nice-try' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/nice-try/index.d.ts'
+[19:01:41.506] Adding entry into typings cache: 'node-dir' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/node-dir/index.d.ts'
+[19:01:41.507] Adding entry into typings cache: 'node-int64' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/node-int64/index.d.ts'
+[19:01:41.509] Adding entry into typings cache: 'normalize-path' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/normalize-path/index.d.ts'
+[19:01:41.510] Adding entry into typings cache: 'object-assign' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/object-assign/index.d.ts'
+[19:01:41.513] Adding entry into typings cache: 'object-keys' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/object-keys/index.d.ts'
+[19:01:41.516] Adding entry into typings cache: 'object.pick' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/object.pick/index.d.ts'
+[19:01:41.517] Adding entry into typings cache: 'on-finished' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/on-finished/index.d.ts'
+[19:01:41.519] Adding entry into typings cache: 'on-headers' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/on-headers/index.d.ts'
+[19:01:41.520] Adding entry into typings cache: 'once' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/once/index.d.ts'
+[19:01:41.520] Adding entry into typings cache: 'os-tmpdir' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/os-tmpdir/index.d.ts'
+[19:01:41.522] Adding entry into typings cache: 'parse-json' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/parse-json/index.d.ts'
+[19:01:41.522] Adding entry into typings cache: 'parseurl' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/parseurl/index.d.ts'
+[19:01:41.525] Adding entry into typings cache: 'pascalcase' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/pascalcase/index.d.ts'
+[19:01:41.526] Adding entry into typings cache: 'path-browserify' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/path-browserify/index.d.ts'
+[19:01:41.526] Adding entry into typings cache: 'path-is-absolute' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/path-is-absolute/index.d.ts'
+[19:01:41.527] Adding entry into typings cache: 'path-parse' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/path-parse/index.d.ts'
+[19:01:41.528] Adding entry into typings cache: 'picomatch' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/picomatch/index.d.ts'
+[19:01:41.528] Adding entry into typings cache: 'pify' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/pify/index.d.ts'
+[19:01:41.529] Adding entry into typings cache: 'plist' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/plist/index.d.ts'
+[19:01:41.531] Adding entry into typings cache: 'prompts' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/prompts/index.d.ts'
+[19:01:41.531] Adding entry into typings cache: 'prop-types' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/prop-types/index.d.ts'
+[19:01:41.532] Adding entry into typings cache: 'pump' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/pump/index.d.ts'
+[19:01:41.533] Adding entry into typings cache: 'querystringify' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/querystringify/index.d.ts'
+[19:01:41.536] Adding entry into typings cache: 'range-parser' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/range-parser/index.d.ts'
+[19:01:41.537] Adding entry into typings cache: 'react' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/react/index.d.ts'
+[19:01:41.538] Adding entry into typings cache: 'react-dom' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/react-dom/index.d.ts'
+[19:01:41.539] Adding entry into typings cache: 'react-is' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/react-is/index.d.ts'
+[19:01:41.540] Adding entry into typings cache: 'react-native' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/react-native/index.d.ts'
+[19:01:41.541] Adding entry into typings cache: 'readable-stream' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/readable-stream/index.d.ts'
+[19:01:41.542] Adding entry into typings cache: 'rechoir' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/rechoir/index.d.ts'
+[19:01:41.542] Adding entry into typings cache: 'regenerate' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/regenerate/index.d.ts'
+[19:01:41.544] Adding entry into typings cache: 'regenerator-runtime' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/regenerator-runtime/index.d.ts'
+[19:01:41.544] Adding entry into typings cache: 'regex-not' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/regex-not/index.d.ts'
+[19:01:41.545] Adding entry into typings cache: 'repeat-element' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/repeat-element/index.d.ts'
+[19:01:41.546] Adding entry into typings cache: 'repeat-string' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/repeat-string/index.d.ts'
+[19:01:41.547] Adding entry into typings cache: 'require-directory' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/require-directory/index.d.ts'
+[19:01:41.548] Adding entry into typings cache: 'require-from-string' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/require-from-string/index.d.ts'
+[19:01:41.549] Adding entry into typings cache: 'requires-port' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/requires-port/index.d.ts'
+[19:01:41.550] Adding entry into typings cache: 'resolve' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/resolve/index.d.ts'
+[19:01:41.551] Adding entry into typings cache: 'rimraf' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/rimraf/index.d.ts'
+[19:01:41.552] Adding entry into typings cache: 'rsvp' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/rsvp/index.d.ts'
+[19:01:41.554] Adding entry into typings cache: 'run-parallel' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/run-parallel/index.d.ts'
+[19:01:41.555] Adding entry into typings cache: 'safe-regex' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/safe-regex/index.d.ts'
+[19:01:41.557] Adding entry into typings cache: 'safer-buffer' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/safer-buffer/index.d.ts'
+[19:01:41.558] Adding entry into typings cache: 'sane' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/sane/index.d.ts'
+[19:01:41.559] Adding entry into typings cache: 'sax' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/sax/index.d.ts'
+[19:01:41.560] Adding entry into typings cache: 'scheduler' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/scheduler/index.d.ts'
+[19:01:41.561] Adding entry into typings cache: 'semver' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/semver/index.d.ts'
+[19:01:41.562] Adding entry into typings cache: 'send' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/send/index.d.ts'
+[19:01:41.562] Adding entry into typings cache: 'serve-static' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/serve-static/index.d.ts'
+[19:01:41.564] Adding entry into typings cache: 'set-value' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/set-value/index.d.ts'
+[19:01:41.565] Adding entry into typings cache: 'setimmediate' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/setimmediate/index.d.ts'
+[19:01:41.566] Adding entry into typings cache: 'shebang-command' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/shebang-command/index.d.ts'
+[19:01:41.567] Adding entry into typings cache: 'shell-quote' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/shell-quote/index.d.ts'
+[19:01:41.567] Adding entry into typings cache: 'shelljs' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/shelljs/index.d.ts'
+[19:01:41.568] Adding entry into typings cache: 'signal-exit' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/signal-exit/index.d.ts'
+[19:01:41.568] Adding entry into typings cache: 'slice-ansi' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/slice-ansi/index.d.ts'
+[19:01:41.569] Adding entry into typings cache: 'source-map-support' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/source-map-support/index.d.ts'
+[19:01:41.570] Adding entry into typings cache: 'sprintf' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/sprintf/index.d.ts'
+[19:01:41.571] Adding entry into typings cache: 'sprintf-js' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/sprintf-js/index.d.ts'
+[19:01:41.571] Adding entry into typings cache: 'statuses' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/statuses/index.d.ts'
+[19:01:41.572] Adding entry into typings cache: 'stream-buffers' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/stream-buffers/index.d.ts'
+[19:01:41.573] Adding entry into typings cache: 'supports-color' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/supports-color/index.d.ts'
+[19:01:41.573] Adding entry into typings cache: 'temp' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/temp/index.d.ts'
+[19:01:41.574] Adding entry into typings cache: 'through2' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/through2/index.d.ts'
+[19:01:41.574] Adding entry into typings cache: 'tmpl' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/tmpl/index.d.ts'
+[19:01:41.575] Adding entry into typings cache: 'to-regex' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/to-regex/index.d.ts'
+[19:01:41.576] Adding entry into typings cache: 'to-regex-range' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/to-regex-range/index.d.ts'
+[19:01:41.577] Adding entry into typings cache: 'ua-parser-js' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ua-parser-js/index.d.ts'
+[19:01:41.578] Adding entry into typings cache: 'uglify-es' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/uglify-es/index.d.ts'
+[19:01:41.579] Adding entry into typings cache: 'ultron' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ultron/index.d.ts'
+[19:01:41.579] Adding entry into typings cache: 'universalify' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/universalify/index.d.ts'
+[19:01:41.580] Adding entry into typings cache: 'urix' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/urix/index.d.ts'
+[19:01:41.581] Adding entry into typings cache: 'url-parse' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/url-parse/index.d.ts'
+[19:01:41.581] Adding entry into typings cache: 'use-subscription' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/use-subscription/index.d.ts'
+[19:01:41.582] Adding entry into typings cache: 'util-deprecate' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/util-deprecate/index.d.ts'
+[19:01:41.582] Adding entry into typings cache: 'utils-merge' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/utils-merge/index.d.ts'
+[19:01:41.583] Adding entry into typings cache: 'uuid' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/uuid/index.d.ts'
+[19:01:41.584] Adding entry into typings cache: 'vary' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/vary/index.d.ts'
+[19:01:41.584] Adding entry into typings cache: 'wcwidth' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/wcwidth/index.d.ts'
+[19:01:41.585] Adding entry into typings cache: 'webidl-conversions' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/webidl-conversions/index.d.ts'
+[19:01:41.586] Adding entry into typings cache: 'whatwg-url' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/whatwg-url/index.d.ts'
+[19:01:41.587] Adding entry into typings cache: 'which' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/which/index.d.ts'
+[19:01:41.588] Adding entry into typings cache: 'wrap-ansi' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/wrap-ansi/index.d.ts'
+[19:01:41.588] Adding entry into typings cache: 'write-file-atomic' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/write-file-atomic/index.d.ts'
+[19:01:41.589] Adding entry into typings cache: 'ws' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/ws/index.d.ts'
+[19:01:41.590] Adding entry into typings cache: 'xml2js' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/xml2js/index.d.ts'
+[19:01:41.590] Adding entry into typings cache: 'xmldoc' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/xmldoc/index.d.ts'
+[19:01:41.591] Adding entry into typings cache: 'xtend' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/xtend/index.d.ts'
+[19:01:41.592] Adding entry into typings cache: 'yallist' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/yallist/index.d.ts'
+[19:01:41.593] Adding entry into typings cache: 'yargs' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/yargs/index.d.ts'
+[19:01:41.594] Adding entry into typings cache: 'yargs-parser' => '/home/bentocarlos/.cache/typescript/4.5/node_modules/@types/yargs-parser/index.d.ts'
+[19:01:41.594] Finished processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[19:01:41.594] Process id: 4278
+[19:01:41.594] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[19:01:41.594] validateDefaultNpmLocation: false
+[19:01:41.595] Npm config file: /home/bentocarlos/.cache/typescript/4.5/package.json
+[19:01:41.595] Updating types-registry npm package...
+[19:01:41.595] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[19:01:43.980]     Succeeded. stdout:
+    
+    up to date, audited 254 packages in 2s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[19:01:43.980] Updated types-registry npm package
+[19:01:47.356] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/Texto.js","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/Topo.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components","kind":"discover"}
+[19:01:47.381] Loaded safelist from types map file '/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[19:01:47.383] Explicitly included types: []
+[19:01:47.388] Inferred typings from unresolved imports: []
+[19:01:47.390] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules"]}
+[19:01:47.391] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules"]}
+[19:01:47.393] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components
+[19:01:47.393] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.396] Elapsed:: 2.494795999955386ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.397] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules
+[19:01:47.397] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.398] Elapsed:: 0.2986139999702573ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.398] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components
+[19:01:47.398] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.398] Elapsed:: 0.1520909999962896ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.398] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules
+[19:01:47.398] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.399] Elapsed:: 0.1524030000437051ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:01:47.399] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:01:47.400] Response has been sent.
+[19:01:47.400] No new typings were requested as a result of typings discovery
+[19:01:48.191] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/bentocarlos/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/Texto.js","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/Detalhe.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components","kind":"discover"}
+[19:01:48.191] Explicitly included types: []
+[19:01:48.191] Inferred typings from unresolved imports: []
+[19:01:48.191] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules"]}
+[19:01:48.191] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components","/home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules"]}
+[19:01:48.191] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components
+[19:01:48.191] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.191] Elapsed:: 0.023838000022806227ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] Elapsed:: 0.01467400009278208ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/componentes/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] Elapsed:: 0.011753999977372587ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules
+[19:01:48.192] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] Elapsed:: 0.015447999932803214ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Documents/Github/Projetos-Alura/React-Native/orgs-cesta/src/telas/Cesta/components/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:01:48.192] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:01:48.192] Response has been sent.
+[19:01:48.192] No new typings were requested as a result of typings discovery
