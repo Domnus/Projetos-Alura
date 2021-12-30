@@ -1,5 +1,5 @@
-import React from 'react';
-import Botao from '../Botao';
+import React from 'react'
+import Botao from '../Botao'
 import style from './Formulario.module.scss'
 
 class Formulario extends React.Component {
@@ -32,10 +32,12 @@ class Formulario extends React.Component {
                         required
                     />
                 </div>
-                <Botao />
+                <Botao>
+                    Adicionar
+                </Botao>
             </form>
         )
     }
 }
 
-export default Formulario;
+export default Formulario
