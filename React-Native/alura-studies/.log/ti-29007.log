@@ -1,0 +1,18 @@
+[18:01:04.542] Global cache location '/home/bentocarlos/.cache/typescript/4.5', safe file path '/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typingSafeList.json', types map path /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typesMap.json
+[18:01:04.543] Processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[18:01:04.543] Trying to find '/home/bentocarlos/.cache/typescript/4.5/package.json'...
+[18:01:04.543] Finished processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[18:01:04.543] Process id: 29014
+[18:01:04.543] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[18:01:04.543] validateDefaultNpmLocation: false
+[18:01:04.544] Npm config file: /home/bentocarlos/.cache/typescript/4.5/package.json
+[18:01:04.544] Npm config file: '/home/bentocarlos/.cache/typescript/4.5/package.json' is missing, creating new one...
+[18:01:04.545] Updating types-registry npm package...
+[18:01:04.545] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[18:01:05.386]     Succeeded. stdout:
+    
+    added 1 package, and audited 2 packages in 701ms
+
+found 0 vulnerabilities
+
+[18:01:05.386] Updated types-registry npm package

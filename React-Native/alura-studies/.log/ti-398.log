@@ -1,0 +1,35 @@
+[08:40:31.876] Global cache location '/home/bentocarlos/.cache/typescript/4.5', safe file path '/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typingSafeList.json', types map path /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typesMap.json
+[08:40:31.877] Processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[08:40:31.877] Trying to find '/home/bentocarlos/.cache/typescript/4.5/package.json'...
+[08:40:31.879] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.574"}}
+[08:40:31.879] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package-lock.json'
+[08:40:31.879] Finished processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[08:40:31.879] Process id: 405
+[08:40:31.879] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[08:40:31.879] validateDefaultNpmLocation: false
+[08:40:31.880] Npm config file: /home/bentocarlos/.cache/typescript/4.5/package.json
+[08:40:31.880] Updating types-registry npm package...
+[08:40:31.880] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[08:40:32.744]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 737ms
+
+found 0 vulnerabilities
+
+[08:40:32.744] Updated types-registry npm package
+[08:57:51.867] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils","kind":"discover"}
+[08:57:51.917] Loaded safelist from types map file '/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typesMap.json'
+[08:57:51.918] Explicitly included types: []
+[08:57:51.919] Inferred typings from unresolved imports: []
+[08:57:51.919] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/bower_components","/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/node_modules"]}
+[08:57:51.919] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/bower_components","/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/node_modules"]}
+[08:57:51.920] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/bower_components
+[08:57:51.921] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[08:57:51.928] Elapsed:: 6.942999999970198ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[08:57:51.928] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/node_modules
+[08:57:51.928] DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[08:57:51.928] Elapsed:: 0.12979999999515712ms DirectoryWatcher:: Added:: WatchInfo: /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/src/common/utils/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[08:57:51.928] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[08:57:51.929] Response has been sent.
+[08:57:51.929] No new typings were requested as a result of typings discovery
