@@ -1,0 +1,19 @@
+[22:33:12.140] Global cache location '/home/bentocarlos/.cache/typescript/4.5', safe file path '/home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typingSafeList.json', types map path /home/bentocarlos/Github/Projetos-Alura/React-Native/alura-studies/node_modules/typescript/lib/typesMap.json
+[22:33:12.140] Processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[22:33:12.141] Trying to find '/home/bentocarlos/.cache/typescript/4.5/package.json'...
+[22:33:12.143] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.574"}}
+[22:33:12.143] Loaded content of '/home/bentocarlos/.cache/typescript/4.5/package-lock.json'
+[22:33:12.143] Finished processing cache location '/home/bentocarlos/.cache/typescript/4.5'
+[22:33:12.144] Process id: 139
+[22:33:12.144] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[22:33:12.144] validateDefaultNpmLocation: false
+[22:33:12.144] Npm config file: /home/bentocarlos/.cache/typescript/4.5/package.json
+[22:33:12.144] Updating types-registry npm package...
+[22:33:12.144] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[22:33:13.303]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 878ms
+
+found 0 vulnerabilities
+
+[22:33:13.303] Updated types-registry npm package
