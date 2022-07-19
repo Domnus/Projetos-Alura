@@ -23,7 +23,7 @@ namespace FilmesAPI.Controller
             return CreatedAtAction(nameof(RecuperaFilmesPorId), new {Id = filme.Id}, filme);
         }
 
-        [HttpGet]
+        [ HttpGet]
         public IActionResult RecuperaFilmes()
         {
             return Ok(filmes);
